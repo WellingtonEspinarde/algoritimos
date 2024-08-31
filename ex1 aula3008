@@ -30,3 +30,4 @@ double peso, altura, imc;
    }
 
     return 0;
+}
