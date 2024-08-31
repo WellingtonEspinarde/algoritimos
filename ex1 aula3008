@@ -1,0 +1,32 @@
+Implemente um algoritmo em C que recebe do usuário o peso e
+altura de uma pessoa e calcule o seu IMC (IMC = peso/altura²). O
+seu algoritmo deve mostrar em tela o valor do IMC calculado e deve
+informar a classificação da pessoa, de acordo com a seguinte tabela
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+
+double peso, altura, imc;
+
+   printf("digite seu peso:\n");
+   scanf ("%lf", &peso);
+   printf("digite sua altura:\n");
+   scanf ("%lf", &altura);
+
+   imc = peso/pow (altura,2);
+
+   if ( imc < 18.5){
+    printf("magreza");
+     }else if (imc>=18.5 && imc<= 24.9){
+   printf("peso normal");
+   }else if (imc>= 25 && imc<=29.9){
+   printf("sobre peso");
+   }else if (imc >= 30){
+   printf ("obesidade");
+   }
+
+    return 0;
