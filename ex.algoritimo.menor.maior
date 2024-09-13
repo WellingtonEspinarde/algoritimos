@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+int main()
+{   int num_digitado, maior, menor;
+    bool passou = true;
+    //Parar quando digitar 0
+    do{
+        printf("Digite um numero ou digite 0 para encerrar.\n");
+        scanf("%d",&num_digitado);
+        if (passou){ //so passa na primeira rodada
+            maior = num_digitado;
+            menor = num_digitado;
+            passou = false;
+        }
+
+        if (num_digitado == 0){
+            printf ("Encerrano a leitura...\n");
+        }else{
+
+        if(num_digitado < menor){
+            menor = num_digitado;
+        }
+
+        if(num_digitado > maior){
+            maior = num_digitado;
+        }
+    }
+    }while(num_digitado!=0);
+    printf ("O menor valor digitado eh %d \nO maior valor eh %d", menor, maior);
+
+    return 0;
+}
