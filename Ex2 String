@@ -1,5 +1,5 @@
-Escreva um algoritmo que receba uma String do usuário e imprima as letras das
-posições ímpares
+/*Escreva um algoritmo que receba uma String do usuário e imprima as letras das
+posições ímpares*/
 
 #include <stdio.h>
 #include <stdlib.h>
