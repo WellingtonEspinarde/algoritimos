@@ -1,8 +1,8 @@
-Escreva um algoritmo que recebe vários números inteiros do
+/*Escreva um algoritmo que recebe vários números inteiros do
 usuário e verifica quem é o maior número e quem é o menor. Nesse
 caso, a quantidade de números a serem informados é
 desconhecida. O seu algoritmo deve finalizar quando o usuário
-digitar o número zero, que não deve entrar no conjunto dos
+digitar o número zero, que não deve entrar no conjunto dos*/
 números a serem analisados.
 
 #include <stdio.h>
