@@ -1,6 +1,6 @@
-Escrever um algoritmo que recebe como entrada 10 números
+/*Escrever um algoritmo que recebe como entrada 10 números
 inteiros informados pelo usuá rios e os armazena em um vetor. Logo
-após o seu algoritmo deverá imprimir os valores armazenados.
+após o seu algoritmo deverá imprimir os valores armazenados.*/
 
 #include <stdio.h>
 #include <stdlib.h>
