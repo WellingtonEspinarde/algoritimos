@@ -1,8 +1,8 @@
-Escreva um algoritmo em C que recebe como entrada 10 números
+/*Escreva um algoritmo em C que recebe como entrada 10 números
 inteiros informados pelo usuá rios e os armazena-os em um vetor.
 Depois, o seu algoritmo deve calcular a soma e a média dos
 números armazenados. Ao final, o seu algoritmo deve imprimir o
-vetor, a soma e a média de seus elementos
+vetor, a soma e a média de seus elementos*/
 
 #include <stdio.h>
 #include <stdlib.h>
